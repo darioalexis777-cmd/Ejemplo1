@@ -4,11 +4,6 @@ float promedio(float n1, float n2, float n3);
 int main (){
 
 
-
-
-
-
-
     float p1,p2,p3;
 
 
@@ -26,9 +21,18 @@ int main (){
     scanf("%f",&p3);
 
 
-    pf = promedio(p1,p2,p3);
-    printf("promedio total =%f\n",pf);
 
+
+    pf = promedio(p1,p2,p3);
+    printf("promedio total =%2f\n",pf);
+
+if (pf > 13.99) {
+        printf("Estado: APRUEBA\n");
+    } else if (pf >= 11.0 && pf <= 13.99) {
+        printf("Estado: REPRUEBA\n");
+    } else {
+        printf("Estado: SUPLETORIO\n");
+    }
 
         return 0;
 
