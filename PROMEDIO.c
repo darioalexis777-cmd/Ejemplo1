@@ -1,9 +1,13 @@
 #include<stdio.h>
 
+
+
 float promedio(float n1, float n2, float n3);
 int main (){
 
 
+
+    
     float p1,p2,p3;
 
 
